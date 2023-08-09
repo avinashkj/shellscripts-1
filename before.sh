@@ -1,7 +1,5 @@
 #!/bin/bash
-
-
-
+#this is a function we can call in any script
 factorial () {
         while [ $NUM -ge 1 ]
         do
@@ -10,6 +8,4 @@ factorial () {
         done
         echo "FACTORIAL OF $i is $FACT"
 }
-
-
 echo "HELLO PRINT"

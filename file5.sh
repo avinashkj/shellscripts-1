@@ -1,6 +1,5 @@
 #!/bin/bash
-
-
+#This script is for chceking number of files
 NUM=`ls | wc -l`
 
 

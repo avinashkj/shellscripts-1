@@ -1,6 +1,5 @@
 #!/bin/bash
-
-
+#script to check leap year or not
 
 echo "enter year"
 read YEAR
