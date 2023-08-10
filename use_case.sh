@@ -1,8 +1,5 @@
 #!/bin/bash
-
-
 read -p "Enter a filename: " filename
-
 case "$filename" in
 	*.txt)
 		echo "It's a text file."
@@ -17,3 +14,4 @@ case "$filename" in
 		 echo "It's something else"
 		 ;;
  esac
+ echo "end of case condition"
